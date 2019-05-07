@@ -1,6 +1,7 @@
 1. If you got rid of the able person_pet and put that information right into person, it would imply that a person could only have one pet, but that multiple people could have the same pet.
 2. Yes of course you can put more than one row into person_pet. You would record a crazy cat lady with 50 cats by putting the lady's ID in multiple rows, one for each of the cats' ID's.
-3. ```sql
+3.
+```sql
 CREATE TABLE car (
   vin INTEGER PRIMARY KEY,
   make TEXT,
